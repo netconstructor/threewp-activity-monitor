@@ -1,0 +1,67 @@
+.threewp_activity_monitor_overview_backend_link,
+.threewp_activity_monitor_activity_info_key
+{
+	font-size: 80%;
+	color: gray;
+}
+
+.threewp_activity_monitor_sep
+{
+	color: gray;
+}
+
+table.threewp_activity_monitor li
+{
+	margin: 0;
+}
+
+tr.action_wp_login_failed
+{
+	background-color: #ffecec;
+}
+
+tr.activity_monitor_action
+{
+	height: 42px;
+	min-height: 42px;
+}
+
+td.activity_monitor_action
+{
+	padding-left: 42px;
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+tr.activity_monitor_action:hover
+{
+	background-color: #eee;
+}
+
+.sep
+{
+	color: gray;
+}
+
+tr.action_post_publish		td.activity_monitor_action		{	background-image: url("../images/icons/post_publish.png");		}
+
+tr.action_comment_approve	td.activity_monitor_action		{	background-image: url("../images/icons/comment_approve.png");		}
+
+tr.action_trashed_post		td.activity_monitor_action		{	background-image: url("../images/icons/trash.png");		}
+
+tr.action_password_reset	td.activity_monitor_action		{	background-image: url("../images/icons/password_reset.png");		}
+
+tr.action_wp_login			td.activity_monitor_action		{	background-image: url("../images/icons/login_success.png");		}
+tr.action_wp_login_failed	td.activity_monitor_action		{	background-image: url("../images/icons/login_failure.png");		}
+
+.dashboard_page_ThreeWP_Activity_Monitor span.sensitive
+{
+	background-color: #d3d96f;
+	padding: 2px;
+}
+
+.dashboard_page_ThreeWP_Activity_Monitor span.converted_to_post
+{
+	background-color: #6fd997;
+	padding: 2px;
+}

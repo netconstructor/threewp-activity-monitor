@@ -1,0 +1,5 @@
+trash and comment_approve from
+http://www.behance.net/lirontocker/frame/107103
+
+login_success, login_failure, password_reset and post_publish from KDE's Oxygen theme.
+
